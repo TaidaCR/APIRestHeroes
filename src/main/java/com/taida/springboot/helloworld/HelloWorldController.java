@@ -16,13 +16,13 @@ public class HelloWorldController {
 	public String helloWorld() {
 		return "Hello World";
 	}
-	
+
 	//devuelve el mensaje en formato json
 	@GetMapping(value="/hello-world-bean")
 	public BeanResponse helloWorldBean(){
 		return new BeanResponse("Hello World Bean!");
 		}
-	
+
 	@GetMapping(value= "/hello-world/path-variable/{name}")
 	public String helloWorldVariable(@PathVariable String name) {
 		return "Hello " + name + "!";

@@ -8,10 +8,10 @@ public class Hero {
 	private String name;
 	private String heroName;
 	private Date birthDate;
-	
-	
+
+
 	public Hero() {
-		
+
 	}
 
 
@@ -61,8 +61,8 @@ public class Hero {
 	public void setBirthDate(Date birthDate) {
 		this.birthDate = birthDate;
 	}
-	
-	
-	
-	
+
+
+
+
 }
